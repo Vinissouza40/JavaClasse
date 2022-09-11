@@ -10,7 +10,8 @@ public class ProdutoTeste {
         Produto p2 = new Produto("Caneta Preta");
         p2.nome = "Caneta Preta2";
         p2.preco = 12.56;
-        
+       
+        Produto.desconto = 0.29;
         System.out.println(p1.nome);
         System.out.println(p2.nome);
         
